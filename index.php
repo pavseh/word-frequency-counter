@@ -1,4 +1,7 @@
 <?php
+
+// Test
+
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $inputText = $_POST['text'];
     $sortingOrder = $_POST['sorting_order']; 
